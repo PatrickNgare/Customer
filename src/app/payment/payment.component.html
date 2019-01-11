@@ -1,3 +1,24 @@
-<p>
-  payment works!
-</p>
+
+<div class="container">
+    <div class="row">
+        <form>
+            <div class="form-group">
+
+                <label for="name">Amount</label>
+                <input type="text" required class="form-control" id="name">
+
+            </div>
+            <div class="form-group">
+
+                <label for="description">Description</label>
+                <textarea class="form-control" id="description" rows="4" required></textarea>
+                
+            </div>
+            <div class="form-group">
+                <label for="complete">Pay Date</label>
+                <input type='date' id="complete" required>
+                <a routerLink='/payment' class="btn btn-primary" routerLinkActive='active'> Submit</a>
+            </div>
+        </form>
+    </div>
+</div>
