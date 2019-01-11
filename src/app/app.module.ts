@@ -11,6 +11,8 @@ const routes:Routes=[
   {path:"customers",component:CustomersComponent},
   {path:"about",component:AboutComponent},
   {path:"orders",component:OrdersComponent},
+  {path:"payment",component:PaymentComponent}
+
 ]
 @NgModule({
   declarations: [
